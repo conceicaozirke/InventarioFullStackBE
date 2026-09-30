@@ -1,0 +1,9 @@
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.csproj.AssemblyReference.cache
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.AssemblyInfoInputs.cache
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.AssemblyInfo.cs
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.csproj.CoreCompileInputs.cache
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.RazorAssemblyInfo.cache
+C:\Users\PC004\Desktop\Fullstack- projeto 2- Thiago\BE- C#\InventarioWebBE-FullStack\obj\Debug\net9.0\InventarioWebBE-FullStack.RazorAssemblyInfo.cs

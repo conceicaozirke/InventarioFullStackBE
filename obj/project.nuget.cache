@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "NPYimqF05Uo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\InventarioWebBE-FullStack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.20\\microsoft.entityframeworkcore.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.20\\microsoft.entityframeworkcore.abstractions.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.20\\microsoft.entityframeworkcore.analyzers.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.20\\microsoft.extensions.caching.abstractions.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.20\\microsoft.extensions.caching.memory.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.20\\microsoft.extensions.dependencyinjection.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.20\\microsoft.extensions.dependencyinjection.abstractions.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.logging\\9.0.20\\microsoft.extensions.logging.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.20\\microsoft.extensions.logging.abstractions.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.options\\9.0.20\\microsoft.extensions.options.9.0.20.nupkg.sha512",
+    "C:\\Users\\PC004\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.20\\microsoft.extensions.primitives.9.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://pkgs.dev.azure.com/grupocpfl/Bibliotecas/_packaging/cpfl/nuget/v3/index.json.",
+      "projectPath": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\InventarioWebBE-FullStack.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\InventarioWebBE-FullStack.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

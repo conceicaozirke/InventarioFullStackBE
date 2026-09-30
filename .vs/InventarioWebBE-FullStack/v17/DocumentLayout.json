@@ -1,0 +1,429 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\pricetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\pricetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\soldproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\soldproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\soldproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\soldproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\sellingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\sellingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\pricemargin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\pricemargin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\pricebought.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\pricebought.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\lostproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\lostproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\invoicesold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\invoicesold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\invoicepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\invoicepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\documenttyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\documenttyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\sellingorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\sellingorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\soldinvoicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\soldinvoicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\purchaseorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\purchaseorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\invoicepurchaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\invoicepurchaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\pricetagrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\pricetagrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\pricemarginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\pricemarginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\priceboughtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\priceboughtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\pc004\\desktop\\fullstack- projeto 2- thiago\\be- c#\\inventariowebbe-fullstack\\dto\\lostproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\lostproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PurchaseOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PurchaseOrderRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\PurchaseOrderRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PurchaseOrderRequest.cs",
+              "RelativeToolTip": "DTO\\PurchaseOrderRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:19:22.69Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PriceMargin.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PriceMargin.cs",
+              "RelativeDocumentMoniker": "Models\\PriceMargin.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PriceMargin.cs",
+              "RelativeToolTip": "Models\\PriceMargin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:51:45.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PriceTag.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PriceTag.cs",
+              "RelativeDocumentMoniker": "Models\\PriceTag.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PriceTag.cs",
+              "RelativeToolTip": "Models\\PriceTag.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:03:33.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:40:54.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\ProductRequest.cs",
+              "RelativeToolTip": "DTO\\ProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:14:38.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "Models\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PurchaseOrder.cs",
+              "RelativeToolTip": "Models\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:19:44.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SellingOrder.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\SellingOrder.cs",
+              "RelativeDocumentMoniker": "Models\\SellingOrder.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\SellingOrder.cs",
+              "RelativeToolTip": "Models\\SellingOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:24:12.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SoldProduct.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\SoldProduct.cs",
+              "RelativeDocumentMoniker": "Models\\SoldProduct.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\SoldProduct.cs",
+              "RelativeToolTip": "Models\\SoldProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:27:41.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoldProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\SoldProductRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\SoldProductRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\SoldProductRequest.cs",
+              "RelativeToolTip": "DTO\\SoldProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:27:57.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAIAwwFwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:12:51.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PriceBought.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PriceBought.cs",
+              "RelativeDocumentMoniker": "Models\\PriceBought.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\PriceBought.cs",
+              "RelativeToolTip": "Models\\PriceBought.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:47:48.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LostProduct.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\LostProduct.cs",
+              "RelativeDocumentMoniker": "Models\\LostProduct.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\LostProduct.cs",
+              "RelativeToolTip": "Models\\LostProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:40:40.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceSold.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\InvoiceSold.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceSold.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\InvoiceSold.cs",
+              "RelativeToolTip": "Models\\InvoiceSold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:39:12.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoicePurchase.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\InvoicePurchase.cs",
+              "RelativeDocumentMoniker": "Models\\InvoicePurchase.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\InvoicePurchase.cs",
+              "RelativeToolTip": "Models\\InvoicePurchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:48:00.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DocumentTypeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\DocumentTypeRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\DocumentTypeRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\DocumentTypeRequest.cs",
+              "RelativeToolTip": "DTO\\DocumentTypeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:34:02.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DocumentType.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\DocumentType.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentType.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\DocumentType.cs",
+              "RelativeToolTip": "Models\\DocumentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:32:55.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:41:44.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SellingOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\SellingOrderRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\SellingOrderRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\SellingOrderRequest.cs",
+              "RelativeToolTip": "DTO\\SellingOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:23:56.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InvoicePurchaseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\InvoicePurchaseRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\InvoicePurchaseRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\InvoicePurchaseRequest.cs",
+              "RelativeToolTip": "DTO\\InvoicePurchaseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:48:52.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SoldInvoiceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\SoldInvoiceRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\SoldInvoiceRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\SoldInvoiceRequest.cs",
+              "RelativeToolTip": "DTO\\SoldInvoiceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:38:53.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PriceTagRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PriceTagRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\PriceTagRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PriceTagRequest.cs",
+              "RelativeToolTip": "DTO\\PriceTagRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:03:46.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PriceMarginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PriceMarginRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\PriceMarginRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PriceMarginRequest.cs",
+              "RelativeToolTip": "DTO\\PriceMarginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:51:35.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PriceBoughtRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PriceBoughtRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\PriceBoughtRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\PriceBoughtRequest.cs",
+              "RelativeToolTip": "DTO\\PriceBoughtRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:47:33.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LostProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\LostProductRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\LostProductRequest.cs",
+              "ToolTip": "C:\\Users\\PC004\\Desktop\\Fullstack- projeto 2- Thiago\\BE- C#\\InventarioWebBE-FullStack\\DTO\\LostProductRequest.cs",
+              "RelativeToolTip": "DTO\\LostProductRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:40:28.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
