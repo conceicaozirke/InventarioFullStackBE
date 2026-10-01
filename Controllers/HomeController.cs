@@ -1,32 +1,29 @@
-using System.Diagnostics;
-using InventarioWebBE_FullStack.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using InventarioWebBE_FullStack.Data; // Replace with your actual DbContext namespace
 
 namespace InventarioWebBE_FullStack.Controllers
 {
-    public class HomeController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class HomeController : ControllerBase
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly AppDbContext _context; // Replace AppDbContext with your DbContext class name
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(AppDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        [HttpGet("check-connection")]
+        public async Task<IActionResult> CheckConnection()
         {
-            return View();
-        }
+            bool canConnect = await _context.Database.CanConnectAsync();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            if (canConnect)
+                return Ok(" Connection Successful! DB and BE are 100% connected! ");
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return StatusCode(500, "Could not connect to MySQL container.");
         }
     }
 }
