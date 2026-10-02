@@ -6,28 +6,28 @@ namespace InventarioWebBE_FullStack.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Brand> Brands => Set<Brand>();
-        public DbSet<DocumentType> DocumentTypes => Set<DocumentType>();
+        public DbSet<Brand> Brand => Set<Brand>();
+        public DbSet<DocumentType> DocumentType => Set<DocumentType>();
 
-        public DbSet<InvoicePurchase> InvoicesPurchased => Set<InvoicePurchase>();
+        public DbSet<InvoicePurchase> InvoicePurchase => Set<InvoicePurchase>();
 
-        public DbSet<InvoiceSold> InvoicesSold => Set<InvoiceSold>();
+        public DbSet<InvoiceSold> InvoiceSold => Set<InvoiceSold>();
 
-        public DbSet<LostProduct> LostProducts => Set<LostProduct>();
+        public DbSet<LostProduct> LostProduct => Set<LostProduct>();
 
-        public DbSet<PriceBought> PricesBought => Set<PriceBought>();
+        public DbSet<PriceBought> PriceBought => Set<PriceBought>();
 
-        public DbSet<PriceMargin> PricesMargin => Set<PriceMargin>();
+        public DbSet<PriceMargin> PriceMargin => Set<PriceMargin>();
 
-        public DbSet<PriceTag> PricesTag => Set<PriceTag>();
+        public DbSet<PriceTag> PriceTag => Set<PriceTag>();
 
-        public DbSet<Product> Products => Set<Product>();
+        public DbSet<Product> Product => Set<Product>();
 
-        public DbSet<PurchaseOrder> PurchaseOrders => Set<PurchaseOrder>();
+        public DbSet<PurchaseOrder> PurchaseOrder => Set<PurchaseOrder>();
 
-        public DbSet<SellingOrder> SellingOrders => Set<SellingOrder>();
+        public DbSet<SellingOrder> SellingOrder => Set<SellingOrder>();
 
-        public DbSet<SoldProduct> SoldProducts => Set<SoldProduct>();
+        public DbSet<SoldProduct> SoldProduct => Set<SoldProduct>();
 
 
 

@@ -8,8 +8,10 @@
      public decimal ShippingCost { get; set; }
      public decimal Taxes { get; set; }
 
-             
-     public required InvoicePurchase InvoicePurchase { get; set; }
+       public string? InvoicePurchaseID { get; set; }
+
+
+        public  InvoicePurchase? InvoicePurchase { get; set; }
 
     }
 }

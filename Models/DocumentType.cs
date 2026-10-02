@@ -13,7 +13,7 @@ namespace InventarioWebBE_FullStack.Models
 
     public required string Name { get; set; } =string.Empty;
 
-    public string? Description { get; set; }
+    public string? Notes { get; set; }
 
 
     }

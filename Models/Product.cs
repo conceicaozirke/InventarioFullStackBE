@@ -14,15 +14,18 @@
 
         public DateTime LastUpdatedAt {  get; set; } =DateTime.Now;
 
-       
-        
-        
-        
-        public required Brand Brand { get; set; }
-        public required PriceTag PriceTag { get; set; }
-        public required InvoicePurchase InvoicePurchase { get; set; }
+        public int BrandID { get; set; }
+        public int PriceTagID { get; set; }
+        public string? InvoicePurchaseID { get; set; }
+        public int PriceBoughtID { get; set; }
 
 
+
+        public  Brand? Brand { get; set; }
+        public  PriceTag? PriceTag { get; set; }
+        public InvoicePurchase? InvoicePurchase { get; set; }
+
+        public PriceBought? PriceBought { get; set; }
 
     }
 }

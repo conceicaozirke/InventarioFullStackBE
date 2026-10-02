@@ -8,11 +8,12 @@
 
         public required int Quantity { get; set; }
 
-        public required string DescriptionLost { get; set; } 
+        public required string Notes { get; set; } 
+         
+        public string ProductID { get; set; }
 
+        public Product? Product { get; set; }
 
-
-        public required Product Product { get; set; }
 
     }
 }

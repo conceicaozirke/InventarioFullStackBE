@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using InventarioWebBE_FullStack.Data; // Replace with your actual DbContext namespace
+using InventarioWebBE_FullStack.Data; 
 
 namespace InventarioWebBE_FullStack.Controllers
 {
@@ -8,7 +8,7 @@ namespace InventarioWebBE_FullStack.Controllers
     [Route("api/[controller]")]
     public class HomeController : ControllerBase
     {
-        private readonly AppDbContext _context; // Replace AppDbContext with your DbContext class name
+        private readonly AppDbContext _context; 
 
         public HomeController(AppDbContext context)
         {
@@ -18,12 +18,18 @@ namespace InventarioWebBE_FullStack.Controllers
         [HttpGet("check-connection")]
         public async Task<IActionResult> CheckConnection()
         {
-            bool canConnect = await _context.Database.CanConnectAsync();
+            try
+            {
+                // Force raw connection open to bypass CanConnectAsync exception swallowing
+                await _context.Database.OpenConnectionAsync();
+                await _context.Database.CloseConnectionAsync();
 
-            if (canConnect)
                 return Ok(" Connection Successful! DB and BE are 100% connected! ");
-
-            return StatusCode(500, "Could not connect to MySQL container.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"MySQL Rejection Detail: {ex.Message}");
+            }
         }
     }
 }

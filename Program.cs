@@ -23,6 +23,7 @@ builder.Services.AddCors(Options =>
 //adc controllers
 builder.Services.AddControllers();
 
+
 //Coisa do Swachbucker- buckler- buker?
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

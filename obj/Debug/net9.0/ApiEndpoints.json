@@ -1,1 +1,220 @@
-[]
+[
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceTagController",
+    "Method": "GetAll",
+    "RelativePath": "api/Etiqueta-de-preco",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceTagController",
+    "Method": "CreatePriceTag",
+    "RelativePath": "api/Etiqueta-de-preco",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.PriceTagDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.HomeController",
+    "Method": "CheckConnection",
+    "RelativePath": "api/Home/check-connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.BrandControllers",
+    "Method": "GetAll",
+    "RelativePath": "api/Marcas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.BrandControllers",
+    "Method": "CreateBrand",
+    "RelativePath": "api/Marcas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.AddBrandDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceMarginController",
+    "Method": "GetAll",
+    "RelativePath": "api/Marge-de-Vendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceMarginController",
+    "Method": "CreateMargin",
+    "RelativePath": "api/Marge-de-Vendas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.PriceMarginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.InvoicePurchaseController",
+    "Method": "GetAll",
+    "RelativePath": "api/Notas-fiscais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.InvoicePurchaseController",
+    "Method": "CreateInvoicePurchased",
+    "RelativePath": "api/Notas-fiscais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.InvoicePurchaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.DocumentTypeController",
+    "Method": "GetAll",
+    "RelativePath": "api/Novo-tipo-de-Documento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.DocumentTypeController",
+    "Method": "CreateDocType",
+    "RelativePath": "api/Novo-tipo-de-Documento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.DocTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.ProiceBoughtController",
+    "Method": "GetAll",
+    "RelativePath": "api/Precos-de-compras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.ProiceBoughtController",
+    "Method": "NewPriceBought",
+    "RelativePath": "api/Precos-de-compras",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.PriceBoughtDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Produtos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.LostProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Produtos-Extraviados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.LostProductController",
+    "Method": "CreateLostProduct",
+    "RelativePath": "api/Produtos-Extraviados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InventarioWebBE_FullStack.DTO.LostProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

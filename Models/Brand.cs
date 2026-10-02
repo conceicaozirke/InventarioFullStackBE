@@ -13,7 +13,11 @@
 
         public int DocumentNumber { get; set; }
 
-        public required DocumentType DocumentType { get; set; }
+        public required DateTime CreatedAt { get; set; }
+
+        public int DocumentTypeID { get; set; }
+
+        public  DocumentType? DocumentType { get; set; }
 
 
 

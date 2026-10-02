@@ -1,0 +1,589 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "InventarioWebBE-FullStack",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Marcas": {
+      "get": {
+        "tags": [
+          "BrandControllers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "BrandControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBrandDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBrandDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBrandDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Novo-tipo-de-Documento": {
+      "get": {
+        "tags": [
+          "DocumentType"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DocumentType"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocTypeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocTypeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocTypeDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Home/check-connection": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notas-fiscais": {
+      "get": {
+        "tags": [
+          "InvoicePurchase"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "InvoicePurchase"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoicePurchaseDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoicePurchaseDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoicePurchaseDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Produtos-Extraviados": {
+      "get": {
+        "tags": [
+          "LostProduct"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "LostProduct"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LostProductDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LostProductDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LostProductDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Marge-de-Vendas": {
+      "get": {
+        "tags": [
+          "PriceMargin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PriceMargin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceMarginDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceMarginDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceMarginDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Etiqueta-de-preco": {
+      "get": {
+        "tags": [
+          "PriceTag"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PriceTag"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceTagDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceTagDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceTagDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Produtos": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Product"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Precos-de-compras": {
+      "get": {
+        "tags": [
+          "ProiceBought"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ProiceBought"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceBoughtDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceBoughtDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceBoughtDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddBrandDTO": {
+        "type": "object",
+        "properties": {
+          "brandName": {
+            "type": "string",
+            "nullable": true
+          },
+          "brandNotes": {
+            "type": "string",
+            "nullable": true
+          },
+          "brandAdress": {
+            "type": "string",
+            "nullable": true
+          },
+          "brandDocumentNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "brandDocumentTypeID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DocTypeDTO": {
+        "type": "object",
+        "properties": {
+          "documentTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "documentTypeNotes": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InvoicePurchaseDTO": {
+        "required": [
+          "invoicePurchaseNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "invoicePurchaseNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invoicePurchaseNotes": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoicePurchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "invoicePurchasePriceTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoicePurchaseTaxTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoicePurchaseShippingCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoicePurchasePurchaseStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoicePurchaseIsAvailable": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LostProductDTO": {
+        "required": [
+          "lostNotes",
+          "lostProductDate",
+          "lostProductQuantity"
+        ],
+        "type": "object",
+        "properties": {
+          "lostProductDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lostProductQuantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lostNotes": {
+            "type": "string",
+            "nullable": true
+          },
+          "productID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PriceBoughtDTO": {
+        "type": "object",
+        "properties": {
+          "priceBoughtUnityPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "priceBoughtShippingCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "priceBoughtTaxes": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoicePurchaseID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PriceMarginDTO": {
+        "required": [
+          "priceMarginProductName"
+        ],
+        "type": "object",
+        "properties": {
+          "priceMarginProductName": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceMarginNotes": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceMarginProp": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PriceTagDTO": {
+        "required": [
+          "priceTagProfit"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pricetag_Pricetag": {
+            "type": "number",
+            "format": "double"
+          },
+          "pricetagTotalCosts": {
+            "type": "number",
+            "format": "double"
+          },
+          "pricetagPriceWhen": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "priceTagProfit": {
+            "type": "number",
+            "format": "double"
+          },
+          "priceBoughtID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "marginID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductDTO": {
+        "required": [
+          "product_ProductName"
+        ],
+        "type": "object",
+        "properties": {
+          "product_ProductName": {
+            "type": "string",
+            "nullable": true
+          },
+          "productQuantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productNotes": {
+            "type": "string",
+            "nullable": true
+          },
+          "productCreatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "productLastUpdatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "brandID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pricetagID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "priceboughtID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "priceMarginID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invoicePurchaseID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -10,12 +10,16 @@
 
         public required decimal TotalCosts { get; set; }
 
+        public required decimal Profit { get; set; }
+
+        public int PriceBoughtID { get; set; }
+        public int PriceMarginID { get; set; }
 
 
 
-        public required PriceBought PriceBought { get; set; }
+        public  PriceBought? PriceBought { get; set; }
 
-        public required PriceMargin PriceMargin { get; set; }
+        public  PriceMargin? PriceMargin { get; set; }
 
        
         
