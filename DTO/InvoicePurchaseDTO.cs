@@ -3,7 +3,7 @@
     public class InvoicePurchaseDTO
     {
 
-        public required int InvoicePurchaseNumber { get; set; }
+        public required string InvoicePurchaseNumber { get; set; } = string.Empty;
 
         public string? InvoicePurchaseNotes { get; set; } 
 

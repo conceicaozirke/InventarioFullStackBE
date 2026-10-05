@@ -2,7 +2,7 @@
 {
     public class SellingOrder
     {
-        public int ID { get; set; }
+        public string ID { get; set; } = string.Empty;
 
         public required int OrderNumber {  get; set; } 
 
@@ -14,8 +14,11 @@
 
         public required decimal Profit { get; set; }
 
+        public DateTime CreatedAt { get; set; }  
+        public string InvoicedID { get; set; }  = string.Empty;
 
-        public required InvoiceSold InvoiceSold { get; set; }
+
+        public  InvoiceSold? InvoiceSold { get; set; }
 
     }
 }

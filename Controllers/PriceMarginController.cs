@@ -41,7 +41,8 @@ namespace InventarioWebBE_FullStack.Controllers
             {
                 ProductName = dto.PriceMarginProductName,
                 Notes = dto.PriceMarginNotes,
-                MarginProp = dto.PriceMarginProp
+                MarginProp = dto.PriceMarginProp,
+                CreatedAt= DateTime.UtcNow,
             };
 
 

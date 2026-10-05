@@ -3,7 +3,7 @@
 {
     public class SoldProduct
     {
-        public int ID { get; set; }
+        public string ID { get; set; } = string.Empty;
 
         public required int QuantitySold { get; set; }
         public  decimal ShippingCost { get; set; }
@@ -11,11 +11,14 @@
         public required decimal Profit { get; set; }
         public DateTime DateSold { get; set; } = DateTime.Now;
 
+        public string ProductID { get; set; } =string.Empty;
+
+        public string InvoiceSoldID { get; set; } = string.Empty;
 
 
-        public required Product Product { get; set; }
+        public  Product? Product { get; set; }
 
-        public required InvoiceSold InvoiceSold { get; set; }
+        public  InvoiceSold? InvoiceSold { get; set; }
 
 
        }

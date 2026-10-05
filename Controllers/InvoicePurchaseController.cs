@@ -10,7 +10,7 @@ namespace InventarioWebBE_FullStack.Controllers
 {
 
     [ApiController]
-    [Route("api/Notas-fiscais")]
+    [Route("api/Notas-fiscais-Compras")]
 
 
 
@@ -37,8 +37,15 @@ namespace InventarioWebBE_FullStack.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateInvoicePurchased([FromBody] InvoicePurchaseDTO dto)
         {
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+            }
+
+            string newID = await IDGen.StringIDGen<InvoicePurchase>(_context, propa => propa.ID);
             var invoice = new InvoicePurchase
             {
+                ID = newID,
                 InvoiceNumber = dto.InvoicePurchaseNumber,
                 Notes = dto.InvoicePurchaseNotes,
                 PriceTotal= dto.InvoicePurchasePriceTotal,

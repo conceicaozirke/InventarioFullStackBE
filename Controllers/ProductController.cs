@@ -20,8 +20,8 @@ namespace InventarioWebBE_FullStack.Controllers
 
         public ProductController(AppDbContext context) { _context = context; }
 
-      
-        
+
+
         //GetBrand
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -35,35 +35,45 @@ namespace InventarioWebBE_FullStack.Controllers
         //PostBrand
 
         [HttpPost]
-        public async Task<IActionResult> AddProduct([FromBody] ProductDTO dto)
+        public async Task<IActionResult> StringIDGen([FromBody] ProductDTO dto)
         {
-            var prod = new Product
             {
-                ProductName= dto.Product_ProductName,
-                Quantity= dto.ProductQuantity,
-                Notes=dto.ProductNotes,
-                CreatedAt= DateTime.UtcNow,
-                LastUpdatedAt=DateTime.UtcNow,
-                BrandID= dto.BrandID,
-                PriceTagID=dto.PricetagID,
-                InvoicePurchaseID=dto.InvoicePurchaseID,
-                PriceBoughtID= dto.PriceboughtID,
-            };
-            _context.Product.Add(prod);
-            await _context.SaveChangesAsync();
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+            }
 
-            return Ok(prod);
+            string newID = await IDGen.StringIDGen<Product>(_context, propa => propa.ID);
+
+            {
+                var prod = new Product
+                {
+                    ID = newID,
+                    ProductName = dto.Product_ProductName,
+                    Quantity = dto.ProductQuantity,
+                    Notes = dto.ProductNotes,
+                    CreatedAt = DateTime.UtcNow,
+                    LastUpdatedAt = DateTime.UtcNow,
+                    BrandID = dto.BrandID,
+                    PriceTagID = dto.PricetagID,
+                    InvoicePurchaseID = dto.InvoicePurchaseID,
+                    PriceBoughtID = dto.PriceboughtID,
+                };
+                _context.Product.Add(prod);
+                await _context.SaveChangesAsync();
+
+                return Ok(prod);
+            }
+
+
+
+
+
+
+
+
+
+
         }
-
-
-
-
-
-
-
-
-
-
     }
 }
 

@@ -8,7 +8,8 @@
      public decimal ShippingCost { get; set; }
      public decimal Taxes { get; set; }
 
-       public string? InvoicePurchaseID { get; set; }
+    public string? InvoicePurchaseID { get; set; }
+     public DateTime BoughtWhen { get; set; }=DateTime.Now;
 
 
         public  InvoicePurchase? InvoicePurchase { get; set; }

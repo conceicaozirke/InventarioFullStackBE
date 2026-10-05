@@ -7,6 +7,8 @@ namespace InventarioWebBE_FullStack.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Brand> Brand => Set<Brand>();
+
+        public DbSet<BougthProduct>BougthProduct => Set <BougthProduct>();
         public DbSet<DocumentType> DocumentType => Set<DocumentType>();
 
         public DbSet<InvoicePurchase> InvoicePurchase => Set<InvoicePurchase>();

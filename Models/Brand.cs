@@ -11,7 +11,7 @@
 
         public string? Notes { get; set; } 
 
-        public int DocumentNumber { get; set; }
+        public string DocumentNumber { get; set; } = string.Empty;
 
         public required DateTime CreatedAt { get; set; }
 
