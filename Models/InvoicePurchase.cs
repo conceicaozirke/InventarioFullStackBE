@@ -4,7 +4,7 @@
     {
         public string ID { get; set; } = string.Empty;
 
-        public required int InvoiceNumber { get; set; }
+        public required string InvoiceNumber { get; set; } = string.Empty;
 
         public string? Notes { get; set; } 
 

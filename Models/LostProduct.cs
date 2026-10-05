@@ -10,7 +10,7 @@
 
         public required string Notes { get; set; } 
          
-        public string ProductID { get; set; }
+        public string ProductID { get; set; } = string.Empty;
 
         public Product? Product { get; set; }
 

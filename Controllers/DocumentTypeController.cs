@@ -41,6 +41,7 @@ namespace InventarioWebBE_FullStack.Controllers
             {
                 Name = dto.DocumentTypeName,
                 Notes = dto.DocumentTypeNotes,
+                CreatedAt=DateTime.UtcNow,
                 
 
 

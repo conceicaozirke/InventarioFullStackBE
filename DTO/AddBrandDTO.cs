@@ -9,9 +9,9 @@ namespace InventarioWebBE_FullStack.DTO
 
         public string? BrandNotes { get; set; }
 
-        public string? BrandAdress { get; set; } = string.Empty;
+        public string BrandAdress { get; set; } = string.Empty;
 
-        public int BrandDocumentNumber { get; set; }
+        public string BrandDocumentNumber { get; set; } = string.Empty;
 
         public int BrandDocumentTypeID { get; set; } 
 

@@ -2,8 +2,9 @@
 {
     public class InvoiceSold
     {
-        public int ID { get; set; }
+        public string  ID { get; set; } = string.Empty;
 
+        public int InvoiceNumber { get; set; }
         public DateTime SellingDate { get; set; } = DateTime.Now;
 
         public required decimal PriceTotal { get; set; }

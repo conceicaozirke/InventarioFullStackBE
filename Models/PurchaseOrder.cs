@@ -4,7 +4,7 @@ namespace InventarioWebBE_FullStack.Models
 {
     public class PurchaseOrder
     {
-        public int ID { get; set; }
+        public string ID { get; set; } = string.Empty;
 
         public required int OrderNumber { get; set; } 
 
@@ -16,7 +16,13 @@ namespace InventarioWebBE_FullStack.Models
 
         public required decimal Profit { get; set; }
 
+        public string InvoicePurchaseID { get; set; }=string.Empty;
 
-        public required InvoicePurchase InvoicePurchase { get; set; }
+        public DateTime CreatedAt { get; set; }=DateTime.Now;
+
+
+        public  InvoicePurchase? InvoicePurchase { get; set; }
+
+
     }
 }

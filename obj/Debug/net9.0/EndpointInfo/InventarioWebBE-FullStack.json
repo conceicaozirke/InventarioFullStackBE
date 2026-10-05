@@ -5,6 +5,47 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Compra-de-produto": {
+      "get": {
+        "tags": [
+          "BoughtProduct"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "BoughtProduct"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoughtProductDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoughtProductDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoughtProductDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Marcas": {
       "get": {
         "tags": [
@@ -99,7 +140,7 @@
         }
       }
     },
-    "/api/Notas-fiscais": {
+    "/api/Notas-fiscais-Compras": {
       "get": {
         "tags": [
           "InvoicePurchase"
@@ -344,6 +385,170 @@
           }
         }
       }
+    },
+    "/api/Ordem-de-compras": {
+      "get": {
+        "tags": [
+          "PurchaseOrder"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PurchaseOrder"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PurchaseOrderDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PurchaseOrderDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PurchaseOrderDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ordem-de-vendas": {
+      "get": {
+        "tags": [
+          "SellingOrder"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SellingOrder"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SellingOrderDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SellingOrderDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SellingOrderDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notas-Fiscais-Vendas": {
+      "get": {
+        "tags": [
+          "SoldInvoices"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SoldInvoices"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceSoldDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceSoldDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceSoldDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Venda-de-Produto": {
+      "get": {
+        "tags": [
+          "SoldProduct"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SoldProduct"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SoldProductDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SoldProductDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SoldProductDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -364,12 +569,42 @@
             "nullable": true
           },
           "brandDocumentNumber": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
           },
           "brandDocumentTypeID": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BoughtProductDTO": {
+        "required": [
+          "quantity",
+          "taxes"
+        ],
+        "type": "object",
+        "properties": {
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shippingCost": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taxes": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productID": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoicePurchaseID": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -395,8 +630,8 @@
         "type": "object",
         "properties": {
           "invoicePurchaseNumber": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
           },
           "invoicePurchaseNotes": {
             "type": "string",
@@ -424,6 +659,42 @@
           },
           "invoicePurchaseIsAvailable": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InvoiceSoldDTO": {
+        "required": [
+          "invoiceSoldPriceTotal"
+        ],
+        "type": "object",
+        "properties": {
+          "invoiceSoldSellingDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "invoiceSoldPriceTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoiceSoldTaxTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoiceSoldShippingCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoiceSoldStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceSoldConfirmed": {
+            "type": "boolean"
+          },
+          "invoiceInvoiceNumber": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -578,6 +849,114 @@
             "format": "int32"
           },
           "invoicePurchaseID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PurchaseOrderDTO": {
+        "required": [
+          "purchaseOrderOrderNumber",
+          "purchaseOrderProfit",
+          "purchaseOrderTaxes",
+          "purchaseOrderTotalPrice"
+        ],
+        "type": "object",
+        "properties": {
+          "purchaseOrderOrderNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "purchaseOrderTotalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "purchaseOrderShippingCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "purchaseOrderTaxes": {
+            "type": "number",
+            "format": "double"
+          },
+          "purchaseOrderProfit": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoiceID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SellingOrderDTO": {
+        "required": [
+          "sellingOrderOrderNumber",
+          "sellingOrderProfit",
+          "sellingOrderShippingCost",
+          "sellingOrderTaxes",
+          "sellingOrderTotalPrice"
+        ],
+        "type": "object",
+        "properties": {
+          "sellingOrderOrderNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sellingOrderTotalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "sellingOrderShippingCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "sellingOrderTaxes": {
+            "type": "number",
+            "format": "double"
+          },
+          "sellingOrderProfit": {
+            "type": "number",
+            "format": "double"
+          },
+          "invoiceID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SoldProductDTO": {
+        "required": [
+          "profit",
+          "quantitySold",
+          "taxes"
+        ],
+        "type": "object",
+        "properties": {
+          "quantitySold": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shippingCost": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taxes": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "profit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productID": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceSoldID": {
             "type": "string",
             "nullable": true
           }

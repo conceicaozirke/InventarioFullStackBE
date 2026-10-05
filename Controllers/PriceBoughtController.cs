@@ -42,9 +42,9 @@ namespace InventarioWebBE_FullStack.Controllers
                 UnitPrice = dto.PriceBoughtUnityPrice,
                 ShippingCost= dto.PriceBoughtShippingCost,
                 Taxes = dto.PriceBoughtTaxes,
-                InvoicePurchaseID= dto.InvoicePurchaseID
-                
-                };
+                InvoicePurchaseID= dto.InvoicePurchaseID,
+                BoughtWhen = DateTime.UtcNow,
+    };
 
             _context.PriceBought.Add(price);
             await _context.SaveChangesAsync();
