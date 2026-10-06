@@ -52,6 +52,7 @@ namespace InventarioWebBE_FullStack.Controllers
                 Profit = dto.PurchaseOrderProfit,
                 InvoicePurchaseID = dto.InvoiceID,
                 CreatedAt = DateTime.UtcNow,
+                IsDeleted = false,
 
             };
 

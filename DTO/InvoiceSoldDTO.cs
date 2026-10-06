@@ -15,7 +15,7 @@
 
         public bool InvoiceSoldConfirmed { get; set; } = false;
 
-        public int InvoiceInvoiceNumber { get; set; }
+        public string InvoiceInvoiceNumber { get; set; } =string.Empty;
 
 
 

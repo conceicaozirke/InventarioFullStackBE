@@ -10,11 +10,12 @@
         public required decimal Taxes { get; set; }
         public DateTime DateBought { get; set; } = DateTime.Now;
 
+        public bool IsDeleted { get; set; } = false;
+
         public string ProductID { get; set; } =string.Empty;
 
         public string InvoicePurchaseID { get; set; } = string.Empty;
 
-        public bool IsDeleted { get; set; } = false;
 
         public  Product? Product { get; set; }
 

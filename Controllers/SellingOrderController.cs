@@ -52,6 +52,7 @@ namespace InventarioWebBE_FullStack.Controllers
                 Profit=dto.SellingOrderProfit,
                 CreatedAt=DateTime.UtcNow,
                 InvoicedID = dto.InvoiceID,
+                IsDeleted = false,
             };
 
             _context.SellingOrder.Add(order);

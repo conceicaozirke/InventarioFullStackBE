@@ -38,7 +38,7 @@ namespace InventarioWebBE_FullStack.Data
             base.OnModelCreating(modelBuilder);
 
             // -------------------------------------------------------------
-            // INDEXES FOR SPEED (Pagination & Date Sorting)
+            // INDEXES FOR SPEED 
             // -------------------------------------------------------------
             modelBuilder.Entity<BougthProduct>(entity => {
                 entity.HasIndex(c => c.ID);
@@ -47,8 +47,13 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             // Brand & DocumentType
             // -------------------------------------------------------------
-            modelBuilder.Entity<Brand>()
-                .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<Brand>(entity =>
+            {
+                entity.HasIndex(b => b.ID).IsUnique();
+                entity.HasIndex(b => b.CreatedAt).IsUnique();
+
+            });
+                
 
             modelBuilder.Entity<DocumentType>(entity =>
               { 
@@ -58,8 +63,11 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             // InvoicePurchase
             // -------------------------------------------------------------
-            modelBuilder.Entity<InvoicePurchase>()
-                .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<InvoicePurchase>(entity =>
+            {
+                entity.HasIndex(b => b.ID).IsUnique();
+                entity.HasIndex(c => c.PurchaseDate);
+            });
 
             modelBuilder.Entity<InvoicePurchase>()
                 .Property(c => c.PriceTotal).HasPrecision(12, 2);
@@ -73,6 +81,8 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             modelBuilder.Entity<InvoiceSold>()
                 .HasIndex(b => b.ID).IsUnique();
+                modelBuilder.Entity<InvoiceSold>()
+                .HasIndex(b => b.SellingDate);
             modelBuilder.Entity<InvoiceSold>()
                 .Property(c => c.PriceTotal).HasPrecision(12, 2);
             modelBuilder.Entity<InvoiceSold>()
@@ -85,12 +95,16 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             modelBuilder.Entity<LostProduct>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<LostProduct>()
+                .HasIndex(b => b.LostDate);
 
             // -------------------------------------------------------------
             // PriceBought & PriceMargin
             // -------------------------------------------------------------
             modelBuilder.Entity<PriceBought>()
                 .HasIndex(b => b.ID).IsUnique();
+                modelBuilder.Entity<PriceBought>()
+                .HasIndex(b => b.BoughtWhen);
             modelBuilder.Entity<PriceBought>()
                 .Property(c => c.UnitPrice).HasPrecision(12, 2);
             modelBuilder.Entity<PriceBought>()

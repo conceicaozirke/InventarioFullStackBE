@@ -57,6 +57,7 @@ namespace InventarioWebBE_FullStack.Controllers
                     PriceTagID = dto.PricetagID,
                     InvoicePurchaseID = dto.InvoicePurchaseID,
                     PriceBoughtID = dto.PriceboughtID,
+                    IsDeleted = false,
                 };
                 _context.Product.Add(prod);
                 await _context.SaveChangesAsync();

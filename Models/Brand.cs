@@ -15,6 +15,8 @@
 
         public required DateTime CreatedAt { get; set; }
 
+        public bool IsDeleted { get; set; } = false;
+
         public int DocumentTypeID { get; set; }
 
         public  DocumentType? DocumentType { get; set; }

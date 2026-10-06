@@ -56,7 +56,8 @@ namespace InventarioWebBE_FullStack.Controllers
                 ProductID=dto.ProductID,
                 InvoiceSoldID=dto.InvoiceSoldID,
                 DateSold=DateTime.UtcNow,
-    };
+                IsDeleted = false,
+            };
             _context.SoldProduct.Add(selling);
             await _context.SaveChangesAsync();
 

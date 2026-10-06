@@ -6,7 +6,7 @@
 
         public required decimal Pricetag { get; set; }
         
-        public DateTime PriceWhen { get; set; }
+        public DateTime PriceWhen { get; set; }= DateTime.Now;
 
         public required decimal TotalCosts { get; set; }
 
@@ -15,6 +15,7 @@
         public int PriceBoughtID { get; set; }
         public int PriceMarginID { get; set; }
 
+        public bool IsDeleted { get; set; } = false;
 
 
         public  PriceBought? PriceBought { get; set; }

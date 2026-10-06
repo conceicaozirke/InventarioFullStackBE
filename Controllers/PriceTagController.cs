@@ -49,8 +49,9 @@ namespace InventarioWebBE_FullStack.Controllers
 
                 PriceBoughtID=dto.PriceBoughtID,
 
-                PriceMarginID=dto.MarginID
-    };
+                PriceMarginID=dto.MarginID,
+                IsDeleted = false,
+            };
             _context.PriceTag.Add(tag);
             await _context.SaveChangesAsync();
 
