@@ -35,29 +35,42 @@ namespace InventarioWebBE_FullStack.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
             base.OnModelCreating(modelBuilder);
 
-           
+            // -------------------------------------------------------------
+            // INDEXES FOR SPEED (Pagination & Date Sorting)
+            // -------------------------------------------------------------
+            modelBuilder.Entity<BougthProduct>(entity => {
+                entity.HasIndex(c => c.ID);
+                entity.HasIndex(b => b.DateBought); // <--- +++vel da paginação?
+            });
+            // -------------------------------------------------------------
+            // Brand & DocumentType
+            // -------------------------------------------------------------
             modelBuilder.Entity<Brand>()
                 .HasIndex(b => b.ID).IsUnique();
 
-
-            modelBuilder.Entity<DocumentType>()
-                .HasIndex(b => b.ID).IsUnique();
-
-
+            modelBuilder.Entity<DocumentType>(entity =>
+              { 
+            entity.HasIndex(b => b.ID).IsUnique();
+            entity.HasIndex(c => c.CreatedAt);
+             });
+            // -------------------------------------------------------------
+            // InvoicePurchase
+            // -------------------------------------------------------------
             modelBuilder.Entity<InvoicePurchase>()
                 .HasIndex(b => b.ID).IsUnique();
+
             modelBuilder.Entity<InvoicePurchase>()
                 .Property(c => c.PriceTotal).HasPrecision(12, 2);
-           modelBuilder.Entity<InvoicePurchase>()
-               .Property(d => d.TaxTotal).HasPrecision(12, 2);
             modelBuilder.Entity<InvoicePurchase>()
-               .Property(e => e.ShippingCost).HasPrecision(12, 2);
+                .Property(d => d.TaxTotal).HasPrecision(12, 2);
+            modelBuilder.Entity<InvoicePurchase>()
+                .Property(e => e.ShippingCost).HasPrecision(12, 2);
 
-
-
+            // -------------------------------------------------------------
+            // InvoiceSold
+            // -------------------------------------------------------------
             modelBuilder.Entity<InvoiceSold>()
                 .HasIndex(b => b.ID).IsUnique();
             modelBuilder.Entity<InvoiceSold>()
@@ -67,83 +80,194 @@ namespace InventarioWebBE_FullStack.Data
             modelBuilder.Entity<InvoiceSold>()
                 .Property(e => e.TaxTotal).HasPrecision(12, 2);
 
-
-
+            // -------------------------------------------------------------
+            // LostProduct
+            // -------------------------------------------------------------
             modelBuilder.Entity<LostProduct>()
                 .HasIndex(b => b.ID).IsUnique();
-            //public int Quantity { get; set; } >0
 
-
+            // -------------------------------------------------------------
+            // PriceBought & PriceMargin
+            // -------------------------------------------------------------
             modelBuilder.Entity<PriceBought>()
                 .HasIndex(b => b.ID).IsUnique();
             modelBuilder.Entity<PriceBought>()
-                .Property(c=> c.UnitPrice).HasPrecision(12,2);
+                .Property(c => c.UnitPrice).HasPrecision(12, 2);
             modelBuilder.Entity<PriceBought>()
-                .Property(d=>d.ShippingCost) .HasPrecision(12,2);
-
-
+                .Property(d => d.ShippingCost).HasPrecision(12, 2);
 
             modelBuilder.Entity<PriceMargin>()
                 .HasIndex(b => b.ID).IsUnique();
 
-
+            // -------------------------------------------------------------
+            // PriceTag
+            // -------------------------------------------------------------
             modelBuilder.Entity<PriceTag>()
                 .HasIndex(b => b.ID).IsUnique();
             modelBuilder.Entity<PriceTag>()
-                .Property(c=> c.Pricetag).HasPrecision(12, 2);
+                .Property(c => c.Pricetag).HasPrecision(12, 2);
             modelBuilder.Entity<PriceTag>()
-                .Property(d=>d.TotalCosts).HasPrecision(12, 2);
-            
+                .Property(d => d.TotalCosts).HasPrecision(12, 2);
 
-
+            // -------------------------------------------------------------
+            // Product
+            // -------------------------------------------------------------
             modelBuilder.Entity<Product>()
                 .HasIndex(b => b.ID).IsUnique();
-            //public int Quantity { get; set; } >0
 
-
-
-
+            // -------------------------------------------------------------
+            // PurchaseOrder
+            // -------------------------------------------------------------
             modelBuilder.Entity<PurchaseOrder>()
                 .HasIndex(b => b.ID).IsUnique();
             modelBuilder.Entity<PurchaseOrder>()
-                .Property(c=>c.Taxes).HasPrecision(12, 2);
+                .Property(c => c.Taxes).HasPrecision(12, 2);
             modelBuilder.Entity<PurchaseOrder>()
-                .Property(d=>d.ShippingCost).HasPrecision(12, 2);
-            modelBuilder.Entity<PurchaseOrder>()
-                .Property(e=>e.Taxes).HasPrecision(12, 2);
+                .Property(d => d.ShippingCost).HasPrecision(12, 2);
 
-
-
+            // -------------------------------------------------------------
+            // SellingOrder
+            // -------------------------------------------------------------
             modelBuilder.Entity<SellingOrder>()
                 .HasIndex(b => b.ID).IsUnique();
             modelBuilder.Entity<SellingOrder>()
-                .Property(c=>c.TotalPrice).HasPrecision(12, 2);
+                .Property(c => c.TotalPrice).HasPrecision(12, 2);
             modelBuilder.Entity<SellingOrder>()
-                .Property(d => d.ShippingCost).HasPrecision (12, 2);
+                .Property(d => d.ShippingCost).HasPrecision(12, 2);
             modelBuilder.Entity<SellingOrder>()
-                .Property(e=>e.Taxes) .HasPrecision(12, 2);
+                .Property(e => e.Taxes).HasPrecision(12, 2);
             modelBuilder.Entity<SellingOrder>()
-                .Property(f=>f.Profit).HasPrecision(12, 2);
+                .Property(f => f.Profit).HasPrecision(12, 2);
 
-
-
-
-
+            // -------------------------------------------------------------
+            // SoldProduct
+            // -------------------------------------------------------------
             modelBuilder.Entity<SoldProduct>()
                 .HasIndex(b => b.ID).IsUnique();
             modelBuilder.Entity<SoldProduct>()
-                .Property(c=>c.ShippingCost) .HasPrecision(12, 2);
+                .Property(c => c.ShippingCost).HasPrecision(12, 2);
             modelBuilder.Entity<SoldProduct>()
                 .Property(d => d.Taxes).HasPrecision(12, 2);
             modelBuilder.Entity<SoldProduct>()
-                .Property(e=>e.ShippingCost).HasPrecision(12, 2);
-            modelBuilder.Entity<SoldProduct>()
-                .Property(f=>f.Profit).HasPrecision(12, 2);
-            //public int Quantity { get; set; } >0
-
-
-
+                .Property(f => f.Profit).HasPrecision(12, 2);
         }
-
     }
+
+
+
+
+
+    /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+
+        base.OnModelCreating(modelBuilder);
+
+
+        modelBuilder.Entity<Brand>()
+            .HasIndex(b => b.ID).IsUnique();
+
+
+        modelBuilder.Entity<DocumentType>()
+            .HasIndex(b => b.ID).IsUnique();
+
+
+        modelBuilder.Entity<InvoicePurchase>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<InvoicePurchase>()
+            .Property(c => c.PriceTotal).HasPrecision(12, 2);
+       modelBuilder.Entity<InvoicePurchase>()
+           .Property(d => d.TaxTotal).HasPrecision(12, 2);
+        modelBuilder.Entity<InvoicePurchase>()
+           .Property(e => e.ShippingCost).HasPrecision(12, 2);
+
+
+
+        modelBuilder.Entity<InvoiceSold>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<InvoiceSold>()
+            .Property(c => c.PriceTotal).HasPrecision(12, 2);
+        modelBuilder.Entity<InvoiceSold>()
+            .Property(d => d.ShippingCost).HasPrecision(12, 2);
+        modelBuilder.Entity<InvoiceSold>()
+            .Property(e => e.TaxTotal).HasPrecision(12, 2);
+
+
+
+        modelBuilder.Entity<LostProduct>()
+            .HasIndex(b => b.ID).IsUnique();
+        //public int Quantity { get; set; } >0
+
+
+        modelBuilder.Entity<PriceBought>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<PriceBought>()
+            .Property(c=> c.UnitPrice).HasPrecision(12,2);
+        modelBuilder.Entity<PriceBought>()
+            .Property(d=>d.ShippingCost) .HasPrecision(12,2);
+
+
+
+        modelBuilder.Entity<PriceMargin>()
+            .HasIndex(b => b.ID).IsUnique();
+
+
+        modelBuilder.Entity<PriceTag>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<PriceTag>()
+            .Property(c=> c.Pricetag).HasPrecision(12, 2);
+        modelBuilder.Entity<PriceTag>()
+            .Property(d=>d.TotalCosts).HasPrecision(12, 2);
+
+
+
+        modelBuilder.Entity<Product>()
+            .HasIndex(b => b.ID).IsUnique();
+        //public int Quantity { get; set; } >0
+
+
+
+
+        modelBuilder.Entity<PurchaseOrder>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<PurchaseOrder>()
+            .Property(c=>c.Taxes).HasPrecision(12, 2);
+        modelBuilder.Entity<PurchaseOrder>()
+            .Property(d=>d.ShippingCost).HasPrecision(12, 2);
+        modelBuilder.Entity<PurchaseOrder>()
+            .Property(e=>e.Taxes).HasPrecision(12, 2);
+
+
+
+        modelBuilder.Entity<SellingOrder>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<SellingOrder>()
+            .Property(c=>c.TotalPrice).HasPrecision(12, 2);
+        modelBuilder.Entity<SellingOrder>()
+            .Property(d => d.ShippingCost).HasPrecision (12, 2);
+        modelBuilder.Entity<SellingOrder>()
+            .Property(e=>e.Taxes) .HasPrecision(12, 2);
+        modelBuilder.Entity<SellingOrder>()
+            .Property(f=>f.Profit).HasPrecision(12, 2);
+
+
+
+
+
+        modelBuilder.Entity<SoldProduct>()
+            .HasIndex(b => b.ID).IsUnique();
+        modelBuilder.Entity<SoldProduct>()
+            .Property(c=>c.ShippingCost) .HasPrecision(12, 2);
+        modelBuilder.Entity<SoldProduct>()
+            .Property(d => d.Taxes).HasPrecision(12, 2);
+        modelBuilder.Entity<SoldProduct>()
+            .Property(e=>e.ShippingCost).HasPrecision(12, 2);
+        modelBuilder.Entity<SoldProduct>()
+            .Property(f=>f.Profit).HasPrecision(12, 2);
+        //public int Quantity { get; set; } >0
+
+
+
+    } */
+
 }
+
