@@ -14,6 +14,7 @@
 
         public string InvoicePurchaseID { get; set; } = string.Empty;
 
+        public bool IsDeleted { get; set; } = false;
 
         public  Product? Product { get; set; }
 
