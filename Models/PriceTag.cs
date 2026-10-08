@@ -13,6 +13,7 @@
         public required decimal Profit { get; set; }
 
         public int PriceBoughtID { get; set; }
+            
         public int PriceMarginID { get; set; }
 
         public bool IsDeleted { get; set; } = false;

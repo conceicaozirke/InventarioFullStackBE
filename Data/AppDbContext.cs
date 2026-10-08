@@ -112,12 +112,16 @@ namespace InventarioWebBE_FullStack.Data
 
             modelBuilder.Entity<PriceMargin>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<PriceMargin>()
+                .HasIndex(b => b.CreatedAt);
 
             // -------------------------------------------------------------
             // PriceTag
             // -------------------------------------------------------------
             modelBuilder.Entity<PriceTag>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<PriceTag>()
+                .HasIndex(b => b.PriceWhen);
             modelBuilder.Entity<PriceTag>()
                 .Property(c => c.Pricetag).HasPrecision(12, 2);
             modelBuilder.Entity<PriceTag>()
@@ -128,12 +132,16 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             modelBuilder.Entity<Product>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<Product>()
+                .HasIndex(b => b.LastUpdatedAt);
 
             // -------------------------------------------------------------
             // PurchaseOrder
             // -------------------------------------------------------------
             modelBuilder.Entity<PurchaseOrder>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<PurchaseOrder>()
+                .HasIndex(b => b.CreatedAt);
             modelBuilder.Entity<PurchaseOrder>()
                 .Property(c => c.Taxes).HasPrecision(12, 2);
             modelBuilder.Entity<PurchaseOrder>()
@@ -144,6 +152,8 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             modelBuilder.Entity<SellingOrder>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<SellingOrder>()
+                .HasIndex(b => b.CreatedAt);
             modelBuilder.Entity<SellingOrder>()
                 .Property(c => c.TotalPrice).HasPrecision(12, 2);
             modelBuilder.Entity<SellingOrder>()
@@ -158,6 +168,8 @@ namespace InventarioWebBE_FullStack.Data
             // -------------------------------------------------------------
             modelBuilder.Entity<SoldProduct>()
                 .HasIndex(b => b.ID).IsUnique();
+            modelBuilder.Entity<SoldProduct>()
+                .HasIndex(b => b.DateSold);
             modelBuilder.Entity<SoldProduct>()
                 .Property(c => c.ShippingCost).HasPrecision(12, 2);
             modelBuilder.Entity<SoldProduct>()

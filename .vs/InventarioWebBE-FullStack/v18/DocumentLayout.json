@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\soldprocutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\soldprocutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\bougthproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\bougthproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\soldproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\soldproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\sellingordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\sellingordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\purchaseordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\purchaseordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\pricetagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\pricetagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\boughtproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\boughtproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\pricemargincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\pricemargincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\pricetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\pricetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\boughtprocutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\boughtprocutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\data\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,18 +83,6 @@
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\sellingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\soldproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\soldproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\soldprocutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\soldprocutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\bougthproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\bougthproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\dto\\invoicepurchasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\invoicepurchasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\lostproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\lostproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\pricetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:models\\pricetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\models\\pricemargin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,14 +131,6 @@
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\soldproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\purchaseordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\purchaseordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\invoicesoldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\invoicesoldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -123,24 +139,8 @@
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\priceboughtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\pricemargincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\pricemargincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\pricetagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\pricetagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\dto\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:dto\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\controllers\\sellingordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|solutionrelative:controllers\\sellingordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2306B0FD-E044-4AC1-93DE-71E6BFB46EA2}|InventarioWebBE-FullStack.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\projeto inventario full stack\\inventariofullstackbe\\dto\\sellingorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -178,78 +178,181 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BoughtProcutController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\BoughtProcutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BoughtProcutController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\BoughtProcutController.cs",
-              "RelativeToolTip": "Controllers\\BoughtProcutController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwEIAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SoldProcutController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SoldProcutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SoldProcutController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SoldProcutController.cs",
+              "RelativeToolTip": "Controllers\\SoldProcutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.105Z",
+              "WhenOpened": "2026-10-06T00:34:27.129Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "BougthProduct.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\BougthProduct.cs",
               "RelativeDocumentMoniker": "Models\\BougthProduct.cs",
               "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\BougthProduct.cs",
               "RelativeToolTip": "Models\\BougthProduct.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T00:34:27.112Z",
-              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SellingOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SellingOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SellingOrderController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SellingOrderController.cs",
+              "RelativeToolTip": "Controllers\\SellingOrderController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PagedResult.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Data\\PagedResult.cs",
-              "RelativeDocumentMoniker": "Data\\PagedResult.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Data\\PagedResult.cs",
-              "RelativeToolTip": "Data\\PagedResult.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
+              "Title": "SoldProduct.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\SoldProduct.cs",
+              "RelativeDocumentMoniker": "Models\\SoldProduct.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\SoldProduct.cs",
+              "RelativeToolTip": "Models\\SoldProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T03:49:28.308Z",
+              "WhenOpened": "2026-10-06T00:34:27.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAIAwwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAgwKkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T00:34:27.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Brand.cs",
-              "RelativeToolTip": "Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PurchaseOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PurchaseOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PurchaseOrderController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PurchaseOrderController.cs",
+              "RelativeToolTip": "Controllers\\PurchaseOrderController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.123Z",
+              "WhenOpened": "2026-10-06T00:34:27.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "PriceTagController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceTagController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PriceTagController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceTagController.cs",
+              "RelativeToolTip": "Controllers\\PriceTagController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoughtProductController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\BoughtProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BoughtProductController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\BoughtProductController.cs",
+              "RelativeToolTip": "Controllers\\BoughtProductController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T02:17:28.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PriceMarginController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceMarginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PriceMarginController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceMarginController.cs",
+              "RelativeToolTip": "Controllers\\PriceMarginController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwFwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DocumentTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\DocumentTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentTypeController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\DocumentTypeController.cs",
+              "RelativeToolTip": "Controllers\\DocumentTypeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PriceTag.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PriceTag.cs",
+              "RelativeDocumentMoniker": "Models\\PriceTag.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PriceTag.cs",
+              "RelativeToolTip": "Models\\PriceTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "DocumentType.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\DocumentType.cs",
               "RelativeDocumentMoniker": "Models\\DocumentType.cs",
@@ -257,12 +360,35 @@
               "RelativeToolTip": "Models\\DocumentType.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T00:34:27.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:34:27.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Data\\PagedResult.cs",
+              "RelativeDocumentMoniker": "Data\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Data\\PagedResult.cs",
+              "RelativeToolTip": "Data\\PagedResult.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T03:49:28.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "PaginationParamDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\PaginationParamDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PaginationParamDTO.cs",
@@ -270,12 +396,11 @@
               "RelativeToolTip": "DTO\\PaginationParamDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T03:14:23.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T03:14:23.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "PriceBoughtDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\PriceBoughtDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PriceBoughtDTO.cs",
@@ -283,12 +408,11 @@
               "RelativeToolTip": "DTO\\PriceBoughtDTO.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T00:34:27.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "SellingOrder.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\SellingOrder.cs",
               "RelativeDocumentMoniker": "Models\\SellingOrder.cs",
@@ -296,38 +420,11 @@
               "RelativeToolTip": "Models\\SellingOrder.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwBEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T00:34:27.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SoldProduct.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\SoldProduct.cs",
-              "RelativeDocumentMoniker": "Models\\SoldProduct.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\SoldProduct.cs",
-              "RelativeToolTip": "Models\\SoldProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SoldProcutController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SoldProcutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SoldProcutController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SoldProcutController.cs",
-              "RelativeToolTip": "Controllers\\SoldProcutController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCwAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "PurchaseOrder.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PurchaseOrder.cs",
               "RelativeDocumentMoniker": "Models\\PurchaseOrder.cs",
@@ -335,12 +432,11 @@
               "RelativeToolTip": "Models\\PurchaseOrder.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T00:34:27.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "AddBrandDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\AddBrandDTO.cs",
               "RelativeDocumentMoniker": "DTO\\AddBrandDTO.cs",
@@ -352,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "InvoiceSoldController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\InvoiceSoldController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoiceSoldController.cs",
@@ -388,19 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PurchaseOrderController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PurchaseOrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PurchaseOrderController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PurchaseOrderController.cs",
-              "RelativeToolTip": "Controllers\\PurchaseOrderController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAUwEsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "PurchaseOrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\PurchaseOrderDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PurchaseOrderDTO.cs",
@@ -412,19 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "SellingOrderController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SellingOrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SellingOrderController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\SellingOrderController.cs",
-              "RelativeToolTip": "Controllers\\SellingOrderController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowDUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
@@ -436,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "InvoiceSold.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\InvoiceSold.cs",
               "RelativeDocumentMoniker": "Models\\InvoiceSold.cs",
@@ -448,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "InvoicePurchase.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\InvoicePurchase.cs",
               "RelativeDocumentMoniker": "Models\\InvoicePurchase.cs",
@@ -460,25 +532,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "InvoicePurchaseDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\InvoicePurchaseDTO.cs",
               "RelativeDocumentMoniker": "DTO\\InvoicePurchaseDTO.cs",
               "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\InvoicePurchaseDTO.cs",
               "RelativeToolTip": "DTO\\InvoicePurchaseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T00:34:27.179Z"
             },
@@ -496,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\ProductDTO.cs",
               "RelativeDocumentMoniker": "DTO\\ProductDTO.cs",
@@ -508,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "SoldProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\SoldProductDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SoldProductDTO.cs",
@@ -520,31 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "PriceTagController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceTagController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PriceTagController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceTagController.cs",
-              "RelativeToolTip": "Controllers\\PriceTagController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowDEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PriceTag.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PriceTag.cs",
-              "RelativeDocumentMoniker": "Models\\PriceTag.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PriceTag.cs",
-              "RelativeToolTip": "Models\\PriceTag.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "PriceTagDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\PriceTagDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PriceTagDTO.cs",
@@ -556,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "PriceMargin.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PriceMargin.cs",
               "RelativeDocumentMoniker": "Models\\PriceMargin.cs",
@@ -568,19 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PriceMarginController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceMarginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PriceMarginController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceMarginController.cs",
-              "RelativeToolTip": "Controllers\\PriceMarginController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwCsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "PriceMarginDTO.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\DTO\\PriceMarginDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PriceMarginDTO.cs",
@@ -592,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "PriceBoughtController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\PriceBoughtController.cs",
               "RelativeDocumentMoniker": "Controllers\\PriceBoughtController.cs",
@@ -601,18 +625,6 @@
               "ViewState": "AgIAACYAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T00:34:27.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.229Z"
             },
             {
               "$type": "Document",
@@ -640,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "LostProduct.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\LostProduct.cs",
               "RelativeDocumentMoniker": "Models\\LostProduct.cs",
@@ -652,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "PriceBought.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Models\\PriceBought.cs",
               "RelativeDocumentMoniker": "Models\\PriceBought.cs",
@@ -673,18 +685,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T00:34:27.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DocumentTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\DocumentTypeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DocumentTypeController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Projeto Inventario Full Stack\\InventarioFullStackBE\\Controllers\\DocumentTypeController.cs",
-              "RelativeToolTip": "Controllers\\DocumentTypeController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T00:34:27.289Z"
             },
             {
               "$type": "Document",
