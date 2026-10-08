@@ -6,18 +6,14 @@ using Microsoft.Extensions.Options;
 var builder = WebApplication.CreateBuilder(args);
 
 //frontend- conexão com localhost / 5506 -VERIFICAR SE É 5506 OU 3306 
-builder.Services.AddCors(Options =>
+builder.Services.AddCors(options =>
 {
-    Options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:5506")
-        .AllowAnyHeader()
-        .AllowAnyMethod();
-
+        policy.WithOrigins("http://localhost:5173", "https://localhost:5173") 
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
-
-
-
 });
 
 //adc controllers
@@ -40,7 +36,6 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(connecti
 
 var app = builder.Build();
 
-
 app.UseCors("AllowAll");
 
 
@@ -62,33 +57,3 @@ app.MapControllers();
 
 app.Run();
 
-
-/* Add services to the container.
-builder.Services.AddControllersWithViews();
-
-var app = builder.Build();*/
-
-
-
-/* Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapStaticAssets();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
-
-app.Run(); */
