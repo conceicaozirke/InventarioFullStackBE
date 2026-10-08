@@ -6,7 +6,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -20,6 +31,38 @@
       {
         "Name": "dto",
         "Type": "InventarioWebBE_FullStack.DTO.BoughtProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.BoughtProductController",
+    "Method": "Edit",
+    "RelativePath": "api/Compra-de-produto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "InventarioWebBE_FullStack.Models.BougthProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.BoughtProductController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Compra-de-produto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -68,7 +111,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -88,13 +142,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.BrandControllers",
+    "Method": "Edit",
+    "RelativePath": "api/Marcas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "InventarioWebBE_FullStack.Models.Brand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.BrandControllers",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Marcas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceMarginController",
     "Method": "GetAll",
     "RelativePath": "api/Marge-de-Vendas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -114,13 +211,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceMarginController",
+    "Method": "Edit",
+    "RelativePath": "api/Marge-de-Vendas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "margin",
+        "Type": "InventarioWebBE_FullStack.Models.PriceMargin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.PriceMarginController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Marge-de-Vendas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InventarioWebBE_FullStack.Controllers.InvoicePurchaseController",
     "Method": "GetAll",
     "RelativePath": "api/Notas-fiscais-Compras",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -140,13 +280,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.InvoicePurchaseController",
+    "Method": "Edit",
+    "RelativePath": "api/Notas-fiscais-Compras",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nota",
+        "Type": "InventarioWebBE_FullStack.Models.InvoicePurchase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.InvoicePurchaseController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Notas-fiscais-Compras/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InventarioWebBE_FullStack.Controllers.SoldInvoicesController",
     "Method": "GetAll",
     "RelativePath": "api/Notas-Fiscais-Vendas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -166,13 +349,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.SoldInvoicesController",
+    "Method": "Edit",
+    "RelativePath": "api/Notas-Fiscais-Vendas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nota",
+        "Type": "InventarioWebBE_FullStack.Models.InvoiceSold",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.SoldInvoicesController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Notas-Fiscais-Vendas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InventarioWebBE_FullStack.Controllers.DocumentTypeController",
     "Method": "GetAll",
     "RelativePath": "api/Novo-tipo-de-Documento",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -186,6 +412,38 @@
       {
         "Name": "dto",
         "Type": "InventarioWebBE_FullStack.DTO.DocTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.DocumentTypeController",
+    "Method": "Edit",
+    "RelativePath": "api/Novo-tipo-de-Documento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctype",
+        "Type": "InventarioWebBE_FullStack.Models.DocumentType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.DocumentTypeController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Novo-tipo-de-Documento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -250,7 +508,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -264,6 +533,38 @@
       {
         "Name": "dto",
         "Type": "InventarioWebBE_FullStack.DTO.PriceBoughtDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.ProiceBoughtController",
+    "Method": "Edit",
+    "RelativePath": "api/Precos-de-compras",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "price",
+        "Type": "InventarioWebBE_FullStack.Models.PriceBought",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.ProiceBoughtController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Precos-de-compras/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -302,7 +603,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -316,6 +628,38 @@
       {
         "Name": "dto",
         "Type": "InventarioWebBE_FullStack.DTO.LostProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.LostProductController",
+    "Method": "Edit",
+    "RelativePath": "api/Produtos-Extraviados",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "InventarioWebBE_FullStack.Models.LostProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioWebBE_FullStack.Controllers.LostProductController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Produtos-Extraviados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

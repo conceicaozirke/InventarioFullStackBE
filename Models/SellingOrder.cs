@@ -16,6 +16,7 @@
 
         public DateTime CreatedAt { get; set; }  
         public string InvoicedID { get; set; }  = string.Empty;
+        public bool IsDeleted { get; set; } = false;
 
 
         public  InvoiceSold? InvoiceSold { get; set; }
