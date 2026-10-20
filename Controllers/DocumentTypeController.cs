@@ -5,6 +5,7 @@ using InventarioWebBE_FullStack.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 
 namespace InventarioWebBE_FullStack.Controllers
@@ -27,8 +28,16 @@ namespace InventarioWebBE_FullStack.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParamsDTO dto)
         {
-            var pagedResult = await _context.DocumentType
-                .Where(p => !p.IsDeleted)
+            var query = _context.DocumentType
+                .Where(p => !p.IsDeleted);
+
+            // Aplica o filtro de pesquisa se o usuário digitou algo
+            if (!string.IsNullOrWhiteSpace(dto.SearchTerm))
+            {
+                query = query.Where(p => p.Name != null && p.Name.Contains(dto.SearchTerm));
+            }
+
+            var pagedResult = await query
                 .OrderByDescending(p => p.CreatedAt)
                 .ToPagedListAsync(dto.PageNumber, dto.PageSize);
 
@@ -38,7 +47,7 @@ namespace InventarioWebBE_FullStack.Controllers
 
         //PostBrand
 
-      
+
         [HttpPost]
         public async Task<IActionResult> CreateDocType([FromBody] DocTypeDTO dto)
         {

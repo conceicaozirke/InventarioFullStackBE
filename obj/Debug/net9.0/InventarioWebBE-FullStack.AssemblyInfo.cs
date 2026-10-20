@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventarioWebBE-FullStack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9331f3c64ee6006e0c5a11df2932139c3ea3496")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2439c5225560562e5dc719040ab8287d1fc11c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventarioWebBE-FullStack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventarioWebBE-FullStack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
