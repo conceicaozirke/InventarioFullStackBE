@@ -23,7 +23,7 @@ namespace InventarioWebBE_FullStack.Controllers
 
 
 
-        //GetBrand
+        //GetDocType
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParamsDTO dto)
         {
