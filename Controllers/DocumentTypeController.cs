@@ -27,8 +27,17 @@ namespace InventarioWebBE_FullStack.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParamsDTO dto)
         {
-            var pagedResult = await _context.DocumentType
-                .Where(p => !p.IsDeleted)
+            var query = _context.DocumentType
+                .Where(p => !p.IsDeleted);
+
+            // Aplica o filtro de busca se houver texto digitado
+            if (!string.IsNullOrWhiteSpace(dto.SearchTerm))
+            {
+                var searchTermLower = dto.SearchTerm.ToLower();
+                query = query.Where(p => p.Name.ToLower().Contains(searchTermLower));
+            }
+
+            var pagedResult = await query
                 .OrderByDescending(p => p.CreatedAt)
                 .ToPagedListAsync(dto.PageNumber, dto.PageSize);
 
@@ -38,7 +47,7 @@ namespace InventarioWebBE_FullStack.Controllers
 
         //PostBrand
 
-      
+
         [HttpPost]
         public async Task<IActionResult> CreateDocType([FromBody] DocTypeDTO dto)
         {
@@ -101,11 +110,6 @@ namespace InventarioWebBE_FullStack.Controllers
 
             return Ok(new { message = "Tipo de documento deletado com sucesso!" });
         }
-
-
-
-
-
 
 
 
