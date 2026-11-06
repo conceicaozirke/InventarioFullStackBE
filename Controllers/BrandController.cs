@@ -27,8 +27,17 @@ namespace InventarioWebBE_FullStack.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParamsDTO dto)
         {
-            var pagedResult = await _context.Brand
-                .Where(p => !p.IsDeleted)
+            var query = _context.Brand
+                .Where(p => !p.IsDeleted);
+
+            // Aplica o filtro de busca se houver texto digitado
+            if (!string.IsNullOrWhiteSpace(dto.SearchTerm))
+            {
+                var searchTermLower = dto.SearchTerm.ToLower();
+                query = query.Where(p => p.Name.ToLower().Contains(searchTermLower));
+            }
+
+            var pagedResult = await query
                 .OrderByDescending(p => p.CreatedAt)
                 .ToPagedListAsync(dto.PageNumber, dto.PageSize);
 
