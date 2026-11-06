@@ -14,6 +14,8 @@
 
         public DateTime LastUpdatedAt {  get; set; } =DateTime.Now;
 
+        public bool IsDeleted { get; set; }=false;
+
         public int BrandID { get; set; }
         public int PriceTagID { get; set; }
         public string? InvoicePurchaseID { get; set; }

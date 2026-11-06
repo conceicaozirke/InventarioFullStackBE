@@ -16,9 +16,12 @@ namespace InventarioWebBE_FullStack.Models
 
         public required decimal Profit { get; set; }
 
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        public bool IsDeleted { get; set; }=false;
+
         public string InvoicePurchaseID { get; set; }=string.Empty;
 
-        public DateTime CreatedAt { get; set; }=DateTime.Now;
 
 
         public  InvoicePurchase? InvoicePurchase { get; set; }

@@ -19,7 +19,9 @@
 
         public string PurchaseStatus { get; set; } = string.Empty;
 
-        public bool IsAvailable { get; set; } = false;
+        public bool IsAvailable { get; set; } = true;
+
+        public bool IsDeleted { get; set; } = false;    
 
     }
 

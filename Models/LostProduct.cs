@@ -11,6 +11,7 @@
         public required string Notes { get; set; } 
          
         public string ProductID { get; set; } = string.Empty;
+        public bool  IsDeleted { get; set; }   = false;
 
         public Product? Product { get; set; }
 

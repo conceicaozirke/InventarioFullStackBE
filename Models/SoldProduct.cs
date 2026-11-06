@@ -10,6 +10,7 @@
         public required decimal Taxes { get; set; }
         public required decimal Profit { get; set; }
         public DateTime DateSold { get; set; } = DateTime.Now;
+        public bool  IsDeleted { get; set; }=false;
 
         public string ProductID { get; set; } =string.Empty;
 

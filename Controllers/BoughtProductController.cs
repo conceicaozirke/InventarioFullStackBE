@@ -14,18 +14,7 @@ namespace InventarioWebBE_FullStack.Controllers
     [ApiController]
     [Route("api/Compra-de-produto")]
 
-    //-----------------------------------
-    //   O SEU BURRO ---LOOKA AHERE!!! //
-    //-----------------------------------
-
-
-    //RODAR SET FOREIGN_KEY_CHECKS = 0;
-    //ALTER TABLE BougthProduct (E DEPOIS EM TODAS AS OUTRAS TABELAS!)
-    //ADD COLUMN IsDeleted TINYINT(1) NOT NULL DEFAULT 0;
-    // SET FOREIGN_KEY_CHECKS = 1;
-    // NO SQL SERVER!!!!!!
-
-
+    
     public class BoughtProductController : ControllerBase
     {
         private readonly AppDbContext _context;
